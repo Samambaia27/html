@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Básico</title>
+    <!--- CSS no head-->
+    <style>
+        body {
+            background-color:lightblue;
+        }
+        h1 {
+            color:navy;
+            margin-left:20px;
+        }
+    </style>
+    <!--- CSS externo -->
+    <link real="stylesheet" href="estilos.css" />
+</head>
+<body>
+    <!--- CSS inline -->
+    <p style="color:green; font-size: 14px">
+    Este parágrafo será exibido em verde e com tamanho de fonte 14px.
+    </p>
+ 
+    <!--- CSS no head -->
+    <h1>Este é um tíyulo com Css Interno</h1>
+    <p>Este parágrafo está em uma página com fundo azul claro.</p>
+
+    <!--- CSS externo-->
+    <h2>Bem-Vindo á Minha página</h2>
+    <h3>
+        Este é um exemplo de como utilizar CSS Externo para estilizar sua página.
+    </h3>
+    <a href="data:image/webp;base64,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">Visite o Google</a>
+
+    <!-- Propriedades de Fonte -->
+    <p class="fonte-family">Este texto utiliza a fonte Courier New.</p>
+
+    <p class="fonte-tamanho">
+      Este texto tem um tamanho de fonte de 20 pixels.  
+    </p>
+
+    <p class="fonte-peso">Este texto tem uma espessura de fonte de 600.</p>
+
+    <p class="fonte-estilo">Este texto é exibido em itálico.</p>
+
+    <p class="texto-cor">Este texto é exibido na cor azul.</p>
+
+    <p class="texto centralizado">Este texto é centralizado.</p>
+
+    <p class="texto-sublinhado">Este texto é transformado em maiúsculas.</p>
+
+    <p class="texto-maiúsculas">Este texto é transformado em maiúsculas.</p>
+
+    <p class="sombra-texto">
+        Este texto possui sombra, adicionando profundidade.
+    </p>
+
+    <p class="espacamento-letras">Espaçamento personalizado entre letras.</p>
+
+    <p class="espacamento-palavras">Espaçamento aumentado entre palavras.</p>
+
+    <!--- Seletor de tipo/tag -->
+    <ul>
+        <li>Item 1</li>
+        <li>Item 2</li>
+    </ul>
+
+    <!--- Este exemplo é de um recurso mais avançado, que veremos ao longo do ebook-->
+    <div class="cabecalçho-sticky">Cabeçalho Stricky</div>
+
+    <!---Seletor por classe -->
+    <p class="destaque">Este parágrafo será destacado.</p>
+
+    <p>Este parágrafo não será destacado.</p>
+
+    <p class="texto-grande texto-azul"> Este parágrafo será grande e azul.</p>
+
+    <!---Select de id -->
+    <h1 id="cabecalho-principal">Bem-vindo ao Meu Site</h1>
+
+    <!--- Selector por atributo -->
+    <input type="text" placeholder="Campo de text5o com borda azul"/>
+
+    <div>
+        <a href="http://example.com">Link Externop (http)</a><br />
+        <a href="https://example.com">Link Externop (https)</a><br />
+        <a href="/internal-link">Link Interno</a>
+    </div>
+<div data-status="ativo">Esta div está ativo e tem um fundo verde.</div>
+<div data-status="inativo">
+    Este div está inativo e não tem um fundo verde.
+</div>
+
+<!---- Especifidade -->
+<h4 style="color:green" class="special-header">Olá, Mundo!</h4>
+
+<!---Important -->
+<p class="texto-azul texto-azul-important">
+</p>
+
+<!-- Unidades absolutas -->
+<p class="texto-azul texto-azul-important">Texto com tamanho absoluto em pixels.</p>
+
+<p class="paragrafo-ponto">
+    texto com tamanho em pontos, adequado para documentos impressos.
+</p>
+
+<div class="caixa-polegada">Caixa de 2 polegadas por 1 polegada</div>
+
+<div class="caixa-centimetro">Caixa de 5cm por 2cm</div>
+
+<div class="caixa-milimetro">Caixa de 50cm por 20cm</div>
+
+<div class="container">
+<p class="texto-rem">
+    Este texto é 1.5 vezes maior que o tamanho da fonte do seu elemento pai.
+</p>
+</div>
+
+<p class="texto-ren">
+    Este texto é 2 vezes maoir que o tamanho da fonte do elemento raiz.
+</p>
+
+<div class="container">
+    <div class="caixa-percentual">
+        Esta caixa ocupa 50% da largura do seu contêiner.
+    </div>
+</div>
+
+<div class="div-vh">Esta div ocupa 50% da altura da viewport.</div>
+
+<div class="div-vm">Esta div ocupa 80% da lagura da viewport.</div>
+
+<!-- RGVB, HEX, HSL -->
+<div class="cor-hex">Texto em verde com fundo vermelho.</div>
+
+<div class="cor-hsl">texto em verde escuro fundo azul semi-transparente.
+</div>
+
+<!---- Imagem de Fundo: Inserção ontrole em CSS -->
+<div class="fundo-imagem"></div>
+
+<div class="fundo-tamanho"></div>
+</body>
+</html>
