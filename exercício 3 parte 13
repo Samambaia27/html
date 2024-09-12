@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bem-vindo ao Desenvolvimento Web</title>
+    <link rel="stylesheet" href="exercício.css"/>
+    <!---Vincula o arquivo CSS externo -->
+</head>
+<body>
+    <h1>Bem-vindo ao Desenvolvimento Web!</h1>
+    <!--- Cabeçalho da página -->
+    <p>
+        Esta página é o ponto de partida para explorar os fundamentos do 
+        desenvolvimento web. Ao longo deste curso, espero aprender sobre HTML,
+        CSS, e tlavez um pouco de JavaScript, para construir páginas webinterativas e responsivas. Estou entusiasmo para embarcar nesta jornada
+        e descobrir o que é possível criar com estas tecnologias.
+    </p>
+    <!--- Parágrafo de introdução -->
+
+    <!-- Ex 1 -->
+    <h2>Meu Cabeçalho Estilizado</h2>
+    <p>Este é um parágrafo com estilos específicos de fonte e cor.</p>
+
+    <!-- Ex 2-->
+    <div>
+        Texto exemplo para demostrar o ajuste no espaçamento entre letras e a 
+        altura da linha, melhorando a legibilidade.
+    </div>
+
+    <!-- Ex 3-->
+    <span class="uppercase">Este texto será covertido para Maiúsculas.</span
+    ><br />
+     <span class="lowercase">Este texto0 será convertido para Minúsculas.</span
+    ><br />
+        <span class="capitalize"
+        >este texto terá a primeira letra de cada palavra em Maiúsculas.</span
+        >
+</body>
+</html>
